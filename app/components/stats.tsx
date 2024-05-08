@@ -24,12 +24,12 @@ export const Stats = asyncComponent(async () => {
     },
   ] satisfies { label: string; value: number }[];
 
-  if (stars) {
-    stats.push({
-      label: "GitHub Stars",
-      value: stars,
-    });
-  }
+  // if (stars) {
+  //   stats.push({
+  //     label: "GitHub Stars",
+  //     value: stars,
+  //   });
+  // }
 
   return (
     <section className="container mx-auto">
