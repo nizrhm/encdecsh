@@ -1,7 +1,7 @@
 export default function Head({ title, subtitle }: { title: string; subtitle: string }) {
   // Fallback tagline
-  title ??= "Share Environment Variables Securely";
-  subtitle ??= "EnvShare";
+  title ??= "Share Your Data Securely";
+  subtitle ??= "EncDec";
 
   const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000";
 
