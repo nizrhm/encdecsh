@@ -29,7 +29,7 @@ export default function RootLayout({
             <p>
               Built by{" "}
               <Link href="https://twitter.com/bluebytedigital" className="font-semibold duration-150 hover:text-zinc-200">
-                @blubytedigital
+                @bluebytedigital
               </Link>
             </p>
             <p>

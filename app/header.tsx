@@ -9,7 +9,7 @@ const navigation = [
     href: "/share",
   },
   {
-    name: "Unseal",
+    name: "Decrypt",
     href: "/unseal",
   },
 
