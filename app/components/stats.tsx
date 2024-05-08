@@ -33,7 +33,7 @@ export const Stats = asyncComponent(async () => {
 
   return (
     <section className="container mx-auto">
-      <ul className="grid grid-cols-1 gap-4 sm:grid-cols-3 ">
+      <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 ">
         {stats.map(({ label, value }) => (
           <li
             key={label}
